@@ -1,4 +1,3 @@
-                                                   //1-Р—РђР”РђРќРР•\\
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
@@ -8,13 +7,14 @@
 
 void main()
 {
-	int gr;
-	float gr1;
+	double x, t = 0.3, b, a, y;
 	setlocale(LC_ALL, "RUS");
-	puts("Р’РІРµРґРёС‚Рµ РіСЂР°РґСѓСЃС‹");
-	scanf(" %d", &gr);
-	gr1 = sin(gr * M_PI / 180);
-	printf("Р­С‚Рѕ СЂР°РІРЅРѕ %.6f СЂРѕРґРёР°РЅ", gr1);
+	puts("Вариант 10\n Введите значение х");
+	scanf("%lf", &x);
+	b = x * pow(t,2) + sqrt(x);
+	a = log10(fabs(t * x + pow(t,2)));
+	y = log(a * a / a + b);
+	printf("Значение у = %lf", y); 
+
 
 }
-
