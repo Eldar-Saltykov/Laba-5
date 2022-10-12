@@ -1,3 +1,4 @@
+                                                                            // 1 Р—Р°РґР°РЅРёРµ
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
@@ -10,8 +11,9 @@ void main()
     int gr;
     float gr1;
     setlocale(LC_ALL, "RUS");
-    puts("Введите градусы");
+    puts("Р’РІРµРґРёС‚Рµ РіСЂР°РґСѓСЃС‹");
     scanf(" %d", &gr);
     gr1 = sin(gr * M_PI / 180);
-    printf("Это равно %.6f родиан", gr1);
+    printf("Р­С‚Рѕ СЂР°РІРЅРѕ %.6f СЂРѕРґРёР°РЅ", gr1);
+
 }
