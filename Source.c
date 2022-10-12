@@ -1,3 +1,4 @@
+ 								//2 Р—Р°РґР°РЅРёРµ (10 РІР°СЂРёР°РЅС‚)
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
@@ -9,12 +10,10 @@ void main()
 {
 	double x, t = 0.3, b, a, y;
 	setlocale(LC_ALL, "RUS");
-	puts("Вариант 10\n Введите значение х");
+	puts("Р’Р°СЂРёР°РЅС‚ 10\n Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ С…");
 	scanf("%lf", &x);
 	b = x * pow(t,2) + sqrt(x);
 	a = log10(fabs(t * x + pow(t,2)));
 	y = log(a * a / a + b);
-	printf("Значение у = %lf", y); 
-
-
+	printf("Р—РЅР°С‡РµРЅРёРµ Сѓ = %lf", y); 
 }
