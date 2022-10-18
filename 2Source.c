@@ -12,8 +12,8 @@ void main()
 	setlocale(LC_ALL, "RUS");
 	puts("Вариант 10\n Введите значение х");
 	scanf("%lf", &x);
-	b = x * pow(t,2) + sqrt(x);
-	a = log10(fabs(t * x + pow(t,2)));
-	y = log(a * a / a + b);
-	printf("Значение у = %lf", y); 
+	a = log10(fabs(t * x + pow(t, 2)));
+	b = x * pow(t, 2) + sqrt(x);
+	y = log(pow(a,2) /( a + b));
+	printf("Значение у = %.2lf", y);
 }
